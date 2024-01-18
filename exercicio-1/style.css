@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+.caixa {
+    padding: 20px;
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.botoes {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+#vermelho {background-color: red; color: aliceblue;}
+#azul {background-color: blue; color: aliceblue;}
+#amarelo {background-color: yellow;}
+
+#reset {display: block; margin: 0 auto;}
+
+.caixa-vermelha {background-color: red;}
+.caixa-azul {background-color: blue;}
+.caixa-amarela {background-color: yellow;}
+.reset {background-color: aliceblue;}
