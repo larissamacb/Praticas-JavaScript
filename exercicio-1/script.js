@@ -20,6 +20,5 @@ document.querySelector("#amarelo").addEventListener('click', amarelo)
 
 function reset() {
     caixa.classList.remove('caixa-vermelha', 'caixa-azul', 'caixa-amarela')
-    caixa.classList.add('reset')
 }
 document.querySelector("#reset").addEventListener('click', reset)
