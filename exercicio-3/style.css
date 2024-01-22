@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("fundo-escola.jpg");
+    background-size: contain;
+}
+
+main {
+    background-color:peru;
+    width: 700px;
+    height: 400px;
+    margin: 70px auto;
+    border-radius: 30px;
+    box-shadow: 0 0 8px #000;
+}
+
+h1, h2, h3, span, label, button, input {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+h1 {
+    text-align: center;
+    padding: 25px;
+}
+
+#formulario {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+/*parte da esquerda*/
+
+.form-group > label {
+    font-size: 20px;
+}
+
+.form-group > input {
+    width: 70px;
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+button {
+    height: 30px;
+    border-style: none;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#calcular {
+    width: 150px;
+    background-color: rgb(112, 48, 2);
+    color: aliceblue;
+}
+
+#limpar {
+    width: 170px;
+    background-color: rgb(173, 78, 10);
+    color: aliceblue;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+/*parte da direita*/
+
+.display-da-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25;
+}
+
+#media {
+    width: 120px;
+    height: 100px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.situacao {
+    background-color: rgba(173, 78, 10, 0.318);
+    text-align: center;
+    width: 120px;
+    height: 25px;
+}
+
+.aprovado {background-color: rgb(18, 168, 18);}
+.reprovado {background-color: rgb(249, 47, 47);}
+.recuperacao {background-color: rgb(239, 239, 104);}
+
+.aviso-ativado {
+    background-color: rgb(173, 32, 10); 
+    color: aliceblue;
+    margin-top: 25px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+}
