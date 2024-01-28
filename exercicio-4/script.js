@@ -14,7 +14,6 @@ btnSortear.addEventListener('click', function(){
 
     setTimeout(function() {
         numeroSorteado = getRandomInt(1,6)
-        console.log(numeroSorteado)
         dado.setAttribute('src' , 'img/'+numeroSorteado+'.png')
         sorteado.textContent = numeroSorteado
         

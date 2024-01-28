@@ -39,19 +39,3 @@ function classificacaoImc(calculoImc) {
     console.log(classificacao)
     return classificacao
 }
-
-// function classificacaoImc(calculoImc) {
-//     let classificacao = 'nulo'
-//     switch(true){
-//         case(calculoImc<18,5):
-//             classificacao = 'Baixo peso'
-//         case(calculoImc>=18,5 && calculoImc<25):
-//             classificacao = 'Normal'
-//         case(calculoImc>=25 && calculoImc<30):
-//             classificacao = 'Sobrepeso'
-//         case(calculoImc>30):
-//             classificacao = 'Obesidade'
-//         default:
-//             classificacao = 'Insira valores válidos'
-//         return classificacao
-//     }}

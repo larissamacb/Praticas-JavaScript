@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Conversor de Moedas</h1>
+    <main>
+        <form action="" id="formulario">
+        <div class="box-input-reais">
+            <label for="valor-em-reais" id="reais">R$</label>
+            <input type="number" id="valor-em-reais" required>
+        </div>
+        <div class="form-group">
+            <input type="radio"  id="dolar" name="moedaEstrangeira" value="Dólar">
+            <label for="dolar">Dólar</label>
+
+            <input type="radio"  id="euro" name="moedaEstrangeira" value="Euro">
+            <label for="euro">Euro</label>
+
+            <input type="radio"  id="libra" name="moedaEstrangeira" value="Libra">
+            <label for="libra">Libra</label>
+
+            <input type="radio"  id="bitcoins" name="moedaEstrangeira" value="Bitcoins">
+            <label for="bitcoins">Bitcoins</label>
+        </div>
+        <div class="botoes">
+            <button class='converter botao-desativado' disabled onclick="ativarDesativarBotao()">Converter</button>
+            <button type="reset" id="limpar">Limpar</button>
+        </div>
+        </form>
+        <p>Digite o valor, escolha a moeda e converta</p>
+        <img src="img/real.png" alt="">
+        <img src="img/dolar.png" alt="">
+        <img src="img/euro.png" alt="">
+        <img src="img/libra.png" alt="">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
