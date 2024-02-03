@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: #203500;}
+
+main {
+    background-color: #3b5110;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;;
+    width: 400px;
+    height: 500px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, span, p, h2, li {
+    color: aliceblue;
+}
+
+.estrutura-questoes {display: none;}
+/* .comeco {display: none;} */
+.final {display: none;}
+
+/* Página Inicial do Quiz */
+
+.comeco h1 {
+    font-family: 'Single Day', cursive;
+    font-size: 70px;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.comeco h2 {
+    color: #b7cd7f;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.comeco span {
+    display: block;
+    max-width: fit-content;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.comeco button {
+    margin: 40px auto;
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #d9ef9f;
+    color: #203500;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.comeco button:hover {
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 2px, rgb(31, 193, 27) 0px 0px 0px 4px, rgb(255, 217, 19) 0px 0px 0px 6px, rgb(255, 156, 85) 0px 0px 0px 8px, rgb(255, 85, 85) 0px 0px 0px 10px;
+}
+
+/*Estrutura das Questões*/
+
+.estrutura-questoes h2 {
+    font-family: 'Single Day', cursive;
+    font-size: 35px;
+    width: 400px;
+    background-color: #203500;
+    text-align: center;
+}
+
+.estrutura-questoes h2 span {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+.estrutura-questoes .questao {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0 0 20px;
+}
+
+#numero-da-questao {
+    background-color: #203500;
+    display: block;
+    border-radius: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 2px;
+}
+
+#pergunta {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    max-width: 315px;
+}
+
+ol {
+    display: block;
+    margin: 20px 0 0 20px;
+    max-width: fit-content;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    background-color: #31470b;
+    border-radius: 8px;
+    width: 360px;
+    height: fit-content;
+    padding: 6px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #203500;
+}
+
+/* Final */
+
+.final p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.final span {
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.final button {
+    margin: 40px auto;
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #d9ef9f;
+    color: #203500;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.final button:hover {
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 2px, rgb(31, 193, 27) 0px 0px 0px 4px, rgb(255, 217, 19) 0px 0px 0px 6px, rgb(255, 156, 85) 0px 0px 0px 8px, rgb(255, 85, 85) 0px 0px 0px 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="comeco">
+            <h1>Quiz</h1>
+            <h2>Gastrópodes</h2>
+            <span>5 questões</span><br>
+            <button id="btn-comecar">Começar</button>
+        </div>
+
+        <div class="estrutura-questoes">
+            <h2>Quiz – <span>Gastrópodes</span><span id="questao-ativa"> 1/5</span></h2>
+            <div class="questao">
+                <span id="numero-da-questao">1</span>
+                <p id="pergunta">Quais são gastrópodes?</p>
+            </div>
+
+            <ol>
+                <li class="opcao-a">A – Caranguejos, lagostas e camarões</li>
+                <li class="opcao-b">B – Lesmas, caracóis e caramujos</li>
+                <li class="opcao-c">C – Tubarões, arraias e quimeras</li>
+            </ol>
+        </div>
+
+        <div class="final">
+            <p id="numero-acertos">Você acertou 5 de 5 questões!</p>
+            <span id="situacao"></span>
+            <button id="btn-refazer">Refazer</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
