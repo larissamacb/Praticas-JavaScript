@@ -1,0 +1,64 @@
+{
+    "cards":[
+        {
+            "nome": "Mario",
+            "alinhamento": "Bom",
+            "cor": "#E0102F",
+            "imagem": "https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/mariocharacters/MarioHub_Characters_Intro_Mario.png"
+        },
+        {
+            "nome": "Luigi",
+            "alinhamento": "Bom",
+            "cor": "#08A936",
+            "imagem": "https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/mariocharacters/MarioHub_Characters_CharBtn_Luigi_on.png"
+        },
+        {
+            "nome": "Toad",
+            "alinhamento": "Bom",
+            "cor": "#17419A",
+            "imagem": "https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/mariocharacters/MarioHub_Characters_CharBtn_Toad_on.png"
+        },
+        {
+            "nome": "Yoshi",
+            "alinhamento": "Bom",
+            "cor": "#70B921",
+            "imagem": "https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/mariocharacters/MarioHub_Characters_CharBtn_Yoshi_on.png"
+        },
+        {
+            "nome": "Peach",
+            "alinhamento": "Bom",
+            "cor": "#F096BE",
+            "imagem": "https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/mariocharacters/MarioHub_Characters_CharBtn_Peach_on.png"
+        },
+        {
+            "nome": "Bowser",
+            "alinhamento": "Mau",
+            "cor": "#F8BE10",
+            "imagem": "https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/mariocharacters/MarioHub_Characters_CharBtn_Bowser_on.png"
+        },
+        {
+            "nome": "Daisy",
+            "alinhamento": "Bom",
+            "cor": "#EE830A",
+            "imagem": "https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/mariocharacters/MarioHub_Characters_CharBtn_Daisy_on.png"
+        },
+        {
+            "nome": "Wario",
+            "alinhamento": "Mau",
+            "cor": "#F5DA0F",
+            "imagem": "https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/mariocharacters/MarioHub_Characters_CharBtn_Wario_on.png"
+        },
+        {
+            "nome": "Waluigi",
+            "alinhamento": "Mau",
+            "cor": "#5D2E8E",
+            "imagem": "https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/mariocharacters/MarioHub_Characters_CharBtn_Waluigi_on.png"
+        },
+        {
+            "nome": "Bowser Jr.",
+            "alinhamento": "Mau",
+            "cor": "#F6CE09",
+            "imagem": "https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/mariocharacters/MarioHub_Characters_CharBtn_BowserJr_on.png"
+        }
+    ]
+}
