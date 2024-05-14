@@ -1,5 +1,4 @@
 Nesse repositório estão vários pequenos projetos em JavaScript com o intuito de evoluir na fluência do código. Com isso, acabo praticando HTML e CSS também e aprendendo coisas novas quanto a ligação das 3 linguagens.
-Ainda vou colocar imagens aqui para a representação dos projetos. Por enquanto vou descrevê-los:
 
 <h2>Exercício 1 - Caixa Arco-Íris</h2>
 Um simples retângulo inicialmente branco, mas que vai mudando de cor conforme se apertam os botões das respectivas cores. Também tem um botão de resetar, que faz voltar pro branco.
