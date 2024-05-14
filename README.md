@@ -15,3 +15,9 @@ Um dado virtual que sorteia um número aleatório. Tem a imagem do dado (que tam
 
 <h2>Exercício 5 - Conversor de Moedas</h2>
 Converte um valor em reais atribuído pelo usuário para seu respectivo valor em dólar, euro, libras ou bitcoins. O botão para a conversão só funciona se tiver sido dado um valor válido em reais e uma das opções de moedas para conversão tenha sido selecionada.
+
+<h2>Exercício 6 - Quiz</h2>
+Um quiz (no caso, sobre gastrópodes) com 5 perguntas e que retorna o número de pontos atingidos e uma frase a depender do seu resultado no final.
+
+<h2>Exercício 7 - Página do Apple Watch</h2>
+Página igual a do Apple Watch, com a mudança nas fotos do produto a depender da cor, tamanho e ângulo selecionados. Obs.: desse eu só fiz o JavaScript.
