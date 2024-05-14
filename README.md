@@ -40,7 +40,7 @@ Um quiz (no caso, sobre gastrópodes) com 5 perguntas e que retorna o número de
 <h2>Exercício 7 - Página do Apple Watch</h2>
 Página igual a do Apple Watch, com a mudança nas fotos do produto a depender da cor, tamanho e ângulo selecionados. Obs.: desse eu só fiz o JavaScript.
 <br><br>
-<video controls>
+<video>
 <source src="representacoes/gif-7.mp4" type="video/mp4">
 </video>
 
