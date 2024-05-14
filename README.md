@@ -21,3 +21,7 @@ Um quiz (no caso, sobre gastrópodes) com 5 perguntas e que retorna o número de
 
 <h2>Exercício 7 - Página do Apple Watch</h2>
 Página igual a do Apple Watch, com a mudança nas fotos do produto a depender da cor, tamanho e ângulo selecionados. Obs.: desse eu só fiz o JavaScript.
+
+<h2>Exercício 8 - Cards de Mario</h2>
+Uma página simples com cards de personagens de Mario com nome, alinhamento, imagem e cor de fundo definidas por um arquivo JSON, com valores de seus atributos buscados usando o fetch. Os cards fazem uma animação aumentando suavemente de tamanho quando se passa o mouse por cima, ficando como está a Peach na imagem.
+<img src="">
